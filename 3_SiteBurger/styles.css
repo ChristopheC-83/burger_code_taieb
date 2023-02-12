@@ -25,7 +25,7 @@ body {
   text-shadow: 2px 2px #333;
   cursor: pointer;
 }
-.nav-pills .active a{
+.nav-pills .active a {
   background-color: #e7480f !important;
 }
 .nav-pills li a:hover {
@@ -82,4 +82,24 @@ body {
 .thumbnail .btn-order:focus {
   color: #fff;
   background-color: #c13c0d;
+}
+
+/* Zone admin */
+
+.admin {
+  width: 80%;
+  max-width: 1300px;
+  background-color: white;
+  padding: 10px 40px;
+  border-radius: 10px;
+  /* border:1px solid violet; */
+}
+
+.help-inline {
+  color: red;
+}
+
+.form-action{
+  margin: 0 auto;
+  
 }
