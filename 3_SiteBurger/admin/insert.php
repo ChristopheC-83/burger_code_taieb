@@ -42,7 +42,7 @@
                 $isUploadSuccess = false;
             }
             if(file_exists($imagePath)) {
-                $imageError = "Le fichier existe deja";
+                $imageError = "Le fichier existe déjà";
                 $isUploadSuccess = false;
             }
             if($_FILES["image"]["size"] > 500000) {
