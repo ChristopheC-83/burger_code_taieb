@@ -11,6 +11,7 @@
     $item = $statement->fetch();
     Database::disconnect();
 
+    // cette fonction sert à limiter les intrusion malveillante
     function checkInput($data) {
       $data = trim($data);
       $data = stripslashes($data);
